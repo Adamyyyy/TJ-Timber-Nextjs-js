@@ -28,9 +28,9 @@ const OurMaterial = () => {
               <div className="our-material-one__img1">
                 <Image src={image.src} alt="" />
               </div>
-              <div className="our-material-one__img2 animated zoomIn">
+              {/* <div className="our-material-one__img2 animated zoomIn">
                 <Image src={image2.src} alt="" />
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

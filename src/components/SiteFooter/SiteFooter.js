@@ -29,7 +29,7 @@ const SiteFooter = () => {
       ></div>
       <div className="footer-one__top">
         <Container>
-          <div className="footer-one__subscribe-box">
+          {/* <div className="footer-one__subscribe-box">
             <Row>
               <Col xl={6} lg={6}>
                 <div className="footer-one__subscribe-box-text">
@@ -69,7 +69,7 @@ const SiteFooter = () => {
                 </div>
               </Col>
             </Row>
-          </div>
+          </div> */}
 
           <Row>
             <Col xl={12}>

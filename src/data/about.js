@@ -9,7 +9,7 @@ export const aboutOne = {
   image1,
   image2,
   tagline: "Why Choose Us",
-  title: "About agori Solutions \n flooring company",
+  title: "About T&J Timber \n flooring company",
   text: "Slando is a full-service landscape company. Our established systems allow us to deliver industry-leading landscape \n solutions to commercial and residential clients.",
   lists: [
     {

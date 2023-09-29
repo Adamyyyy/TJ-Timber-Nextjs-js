@@ -23,27 +23,27 @@ const navItems = [
     id: 1,
     name: "Home",
     href: "/",
-    subNavItems: [
-      {
-        id: 1,
-        name: "Home One",
-        href: "/",
-      },
-      {
-        id: 2,
-        name: "Home Two",
-        href: "/index-2",
-      },
-      {
-        id: 3,
-        name: "Header Styles",
-        href: "",
-        subItems: [
-          { id: 1, name: "Header One", href: "/" },
-          { id: 2, name: "Header Two", href: "/index-2" },
-        ],
-      },
-    ],
+    // subNavItems: [
+    //   {
+    //     id: 1,
+    //     name: "Home One",
+    //     href: "/",
+    //   },
+    //   {
+    //     id: 2,
+    //     name: "Home Two",
+    //     href: "/index-2",
+    //   },
+    //   {
+    //     id: 3,
+    //     name: "Header Styles",
+    //     href: "",
+    //     subItems: [
+    //       { id: 1, name: "Header One", href: "/" },
+    //       { id: 2, name: "Header Two", href: "/index-2" },
+    //     ],
+    //   },
+    // ],
   },
   {
     id: 2,
@@ -54,30 +54,30 @@ const navItems = [
     id: 3,
     name: "Services",
     href: "/services",
-    subNavItems: servicesNavItems,
+    // subNavItems: servicesNavItems,
   },
-  {
-    id: 4,
-    name: "Page",
-    href: "",
-    subNavItems: [
-      { id: 1, name: "Portfolio", href: "/portfolio" },
-      { id: 2, name: "Portfolio Two", href: "/portfolio-2" },
-      { id: 3, name: "Portfolio Single", href: "/portfolio-single" },
-      { id: 4, name: "Team", href: "/team" },
-      { id: 5, name: "Error", href: "/404" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Blog",
-    href: "/blog",
-    subNavItems: [
-      { id: 1, name: "Blog", href: "/blog" },
-      { id: 2, name: "Blog Two", href: "/blog-2" },
-      { id: 3, name: "Blog Single", href: "/blog-single" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   name: "Page",
+  //   href: "",
+  //   subNavItems: [
+  //     { id: 1, name: "Portfolio", href: "/portfolio" },
+  //     { id: 2, name: "Portfolio Two", href: "/portfolio-2" },
+  //     { id: 3, name: "Portfolio Single", href: "/portfolio-single" },
+  //     { id: 4, name: "Team", href: "/team" },
+  //     { id: 5, name: "Error", href: "/404" },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   name: "Blog",
+  //   href: "/blog",
+  //   subNavItems: [
+  //     { id: 1, name: "Blog", href: "/blog" },
+  //     { id: 2, name: "Blog Two", href: "/blog-2" },
+  //     { id: 3, name: "Blog Single", href: "/blog-single" },
+  //   ],
+  // },
   {
     id: 6,
     name: "Contact",

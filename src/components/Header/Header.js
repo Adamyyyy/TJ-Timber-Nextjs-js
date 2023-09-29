@@ -74,7 +74,7 @@ const Header = ({ className = "" }) => {
                 <a href={`tel:${phoneHref}`}>{phone}</a>
               </div>
 
-              <div className="social-icon">
+              {/* <div className="social-icon">
                 <ul>
                   {socials.map(({ id, icon, href }) => (
                     <li key={id}>
@@ -87,7 +87,7 @@ const Header = ({ className = "" }) => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
 
               <div className="hidden-content-button bar-box">
                 <SideNavToggler onClick={setSideNav} />
